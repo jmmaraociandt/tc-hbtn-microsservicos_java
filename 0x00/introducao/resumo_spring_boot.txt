@@ -1,0 +1,21 @@
+Spring é um ecossistema onde contém um conjunto de projetos, tais quais: Spring Boot, Spring Framework, Spring XD, Spring Cloude, Spring Data, Spring Security, Spring Mobile, Spring Web Services, entre outros.
+
+O foco aqui será o Spring Boot Framework que consiste em uma estrutura de aplicativo de código aberto baseado na inversão de controle escrito em linguagem Java. Tem sido adotado pois é responsável por simplificar o design do aplicativo e por gerenciar automaticamente funcionalidades de baixo nível – permitindo com que os desenvolvedores se atente mais nas regras de negócio do produto.
+
+O Spring Boot Framework surgiu com o objetivo de facilitar a complexidade de inicialização, gerenciamento de dependências e tratar questões de configurações de aplicações standalone –  aplicações que operam por si próprias. Pode ser considerado como altamente adaptável por conter módulos de extensão que visam aumentar os recursos do framework.
+
+O framework oferece auto depedência do projeto, pois isenta a definição de determinadas configurações do sistema. Somado a isso, seu uso favorece a implantação do software para a fase de produção. As configurações do projeto são definidas por meio de convenções de dependências (como acesso a banco de dados, validação, apache tomcat, dev tools, actuator, entre outros).
+
+O Spring Boot fornece os seguintes benefícios:
+   - Uso de convenções de dependências para inserir configurações;
+   - Servidor embarcado (por padrão é o tomcat) – não sendo necessário baixar, mesmo em produção;
+   - Organização de dependências (gerenciador de dependências maven – pom.xml);
+   - Devtools configura o projeto automaticamente, não sendo necessário reiniciá-lo;
+   - Auxílio de métricas (accturator), nem sempre utilizada, porém há possibilidade de uso;
+   - Toda configuração de dependências não gera linhas de código fonte.
+
+A adição de dependências é realizada por meio de um gerenciador de depedências (em geral maven). 
+
+Acredito que a melhor IDE é aquela que o desenvolvedor se sinta mais a vontade em trabalhar. Por ter mais familiaridade com o IntelliJ IDEA é a que funciona melhor para mim.
+
+Spring Initializr é uma interface web (https://start.spring.io/) que gera um projeto spring boot conforme as especificidades necessárias. A estrutura de configurações é definida a partir das dependências selecionadas pelo usuário.
