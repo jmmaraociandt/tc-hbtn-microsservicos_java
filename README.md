@@ -9,3 +9,5 @@ Java Development Kit used: [11](https://www.oracle.com/java/technologies/downloa
 - Project 42: [What is SpringBoot?](https://github.com/jmmaraociandt/tc-hbtn-microsservicos_java/tree/main/0x01)
 
 - Project 43 - [Building API REST with Spring Boot](https://github.com/jmmaraociandt/tc-hbtn-microsservicos_java/tree/main/0x02)
+
+- Project 44 - [Spring Data JPA introduction](https://github.com/jmmaraociandt/tc-hbtn-microsservicos_java/tree/main/0x03)
