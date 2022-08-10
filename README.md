@@ -14,4 +14,6 @@ Java Development Kit used: [11](https://www.oracle.com/java/technologies/downloa
 
 - Project 45: [Spring Data JPA and H2](https://github.com/jmmaraociandt/tc-hbtn-microsservicos_java/tree/main/0x04)
 
-- Project 46: Spring Security
+- Project 46: [Spring Security](https://github.com/jmmaraociandt/tc-hbtn-microsservicos_java/tree/main/0x05)
+
+- Project 47: Exception handling
