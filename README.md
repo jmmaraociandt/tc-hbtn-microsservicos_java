@@ -13,3 +13,5 @@ Java Development Kit used: [11](https://www.oracle.com/java/technologies/downloa
 - Project 44: [Spring Data JPA introduction](https://github.com/jmmaraociandt/tc-hbtn-microsservicos_java/tree/main/0x03)
 
 - Project 45: [Spring Data JPA and H2](https://github.com/jmmaraociandt/tc-hbtn-microsservicos_java/tree/main/0x04)
+
+- Project 46: Spring Security
