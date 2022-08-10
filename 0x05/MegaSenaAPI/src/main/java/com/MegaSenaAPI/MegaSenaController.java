@@ -17,7 +17,7 @@ public class MegaSenaController {
     }
 
     @GetMapping("/getNumbers")
-    public List<Integer> numerosMegaSena() {
+    public List<Integer> numeroMegaSena() {
         List<Integer> megaSenaNumbers = new ArrayList<>();
         Random randomNumber = new Random();
 
