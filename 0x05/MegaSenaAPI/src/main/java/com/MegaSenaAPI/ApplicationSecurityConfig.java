@@ -1,4 +1,4 @@
-package com.example.megasenaapi;
+package com.megasenaapi;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

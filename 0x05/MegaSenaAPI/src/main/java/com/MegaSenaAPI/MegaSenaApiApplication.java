@@ -1,4 +1,4 @@
-package com.example.megasenaapi;
+package com.megasenaapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.example.megasenaapi;
+package com.megasenaapi;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +17,7 @@ public class MegaSenaController {
     }
 
     @GetMapping("/getNumbers")
-    public List<Integer> numeroMegaSena() {
+    public List<Integer> numerosMegaSena() {
         List<Integer> megaSenaNumbers = new ArrayList<>();
         Random randomNumber = new Random();
 
