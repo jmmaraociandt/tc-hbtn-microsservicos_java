@@ -18,4 +18,4 @@ Java Development Kit used: [11](https://www.oracle.com/java/technologies/downloa
 
 - Project 47: [Exception handling](https://github.com/jmmaraociandt/tc-hbtn-microsservicos_java/tree/main/0x06)
 
-- Project 48: Unit tests with Spring Boot
+- Project 48: [Unit tests with Spring Boot](https://github.com/jmmaraociandt/tc-hbtn-microsservicos_java/tree/main/0x07)
