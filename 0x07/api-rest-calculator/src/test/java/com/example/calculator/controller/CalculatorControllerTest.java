@@ -1,11 +1,9 @@
 package com.example.calculator.controller;
 
 import com.example.calculator.model.Calculator;
-import net.bytebuddy.asm.Advice;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -94,7 +92,7 @@ class CalculatorControllerTest {
         LocalDate localDate1 = LocalDate.of(2020, 3, 15);
         LocalDate localDate2 = LocalDate.of(2020, 3, 29);
 
-        when(this.calculator.calculateDayBetweenDate(localDate1, localDate2)).thenReturn(14);
+        when(this.calculator.calculeDayBetweenDate(localDate1, localDate2)).thenReturn(14);
 
         RequestBuilder request = get("/calculator/calculeDayBetweenDate")
                 .param("localDate1", localDate1.toString())

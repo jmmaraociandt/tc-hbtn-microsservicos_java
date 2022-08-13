@@ -45,7 +45,7 @@ public class Calculator {
         return Integer.toHexString(integer);
     }
 
-    public int calculateDayBetweenDate(LocalDate date1, LocalDate date2) {
+    public int calculeDayBetweenDate(LocalDate date1, LocalDate date2) {
         return Math.toIntExact(DAYS.between(date1, date2));
     }
 }

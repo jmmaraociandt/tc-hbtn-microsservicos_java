@@ -43,7 +43,7 @@ public class CalculatorController {
     public String calculeDayBetweenDate(
             @RequestParam("localDate1") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate localDate1,
             @RequestParam("localDate2") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate localDate2) {
-        return String.valueOf(calculator.calculateDayBetweenDate(localDate1, localDate2));
+        return String.valueOf(calculator.calculeDayBetweenDate(localDate1, localDate2));
     }
 
     @GetMapping("/integerToBinary")

@@ -1,5 +1,6 @@
 package com.example.calculator.model;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
@@ -7,8 +8,12 @@ import java.time.LocalDate;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
-    private static Calculator calculator = new Calculator();
+    private static Calculator calculator;
 
+    @BeforeEach
+    void calculatorInit() {
+        calculator = new Calculator();
+    }
     @Test
     void sumTest() {
         assertEquals(5.5, calculator.sum(2.3, 3.2));
@@ -52,7 +57,7 @@ class CalculatorTest {
 
     @Test
     void calculeDayBetweenDateTest() {
-        assertEquals(14, calculator.calculateDayBetweenDate(
+        assertEquals(14, calculator.calculeDayBetweenDate(
                 LocalDate.of(2020, 3, 15),
                 LocalDate.of(2020, 3, 29)));
     }
